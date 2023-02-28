@@ -141,71 +141,71 @@ namespace Target_Test_prj
         {
             //ex 2
 
-            //int x, x2;           
-            //Console.WriteLine("Digite o valor para verificar na sequencia Fibonacci");
-            //x = int.Parse(Console.ReadLine());
-            //Console.WriteLine("Digite o limite da sequencia Fibonacci");
-            //x2 = int.Parse(Console.ReadLine());
+            int x, x2;
+            Console.WriteLine("Digite o valor para verificar na sequencia Fibonacci");
+            x = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o limite da sequencia Fibonacci");
+            x2 = int.Parse(Console.ReadLine());
 
-            //if (fibo(x, x2) == x)
-            //{
-            //    Console.WriteLine("Pertençe sequencia Fibonacci");
-            //}
-            //else
-            //{
-            //    Console.WriteLine("Não pertençe sequencia Fibonacci");
-            //}
+            if (fibo(x, x2) == x)
+            {
+                Console.WriteLine("Pertençe sequencia Fibonacci");
+            }
+            else
+            {
+                Console.WriteLine("Não pertençe sequencia Fibonacci");
+            }
 
             //ex 3
 
-            //string[] dia = new string[30];
-            //double[] vlr = new double[30];
-            //int count = 0;
+            string[] dia = new string[30];
+            double[] vlr = new double[30];
+            int count = 0;
 
-            //for (int i = 0; i < 30; i++)
-            //{
-            //    count = i + 1;
-            //    dia[i] = count.ToString();
-            //}
+            for (int i = 0; i < 30; i++)
+            {
+                count = i + 1;
+                dia[i] = count.ToString();
+            }
 
-            //vlr[0] = 22174.1664;
-            //vlr[1] = 24537.6698;
-            //vlr[2] = 26139.6134;
-            //vlr[3] = 0;
-            //vlr[4] = 0;
-            //vlr[5] = 26742.6612;
-            //vlr[6] = 0;
-            //vlr[7] = 42889.2258;
-            //vlr[8] = 46251.174;
-            //vlr[9] = 11191.4722;
-            //vlr[10] = 0;
-            //vlr[11] = 0;
-            //vlr[12] = 3847.4823;
-            //vlr[13] = 373.7838;
-            //vlr[14] = 2659.7563;
-            //vlr[15] = 48924.2448;
-            //vlr[16] = 18419.2614;
-            //vlr[17] = 0;
-            //vlr[18] = 0;
-            //vlr[19] = 35240.1826;
-            //vlr[20] = 43829.1667;
-            //vlr[21] = 18235.6852;
-            //vlr[22] = 4355.0662;
-            //vlr[23] = 13327.1025;
-            //vlr[24] = 0;
-            //vlr[25] = 0;
-            //vlr[26] = 25681.8318;
-            //vlr[27] = 1718.1221;
-            //vlr[28] = 13220.495;
-            //vlr[29] = 8414.61;
+            vlr[0] = 22174.1664;
+            vlr[1] = 24537.6698;
+            vlr[2] = 26139.6134;
+            vlr[3] = 0;
+            vlr[4] = 0;
+            vlr[5] = 26742.6612;
+            vlr[6] = 0;
+            vlr[7] = 42889.2258;
+            vlr[8] = 46251.174;
+            vlr[9] = 11191.4722;
+            vlr[10] = 0;
+            vlr[11] = 0;
+            vlr[12] = 3847.4823;
+            vlr[13] = 373.7838;
+            vlr[14] = 2659.7563;
+            vlr[15] = 48924.2448;
+            vlr[16] = 18419.2614;
+            vlr[17] = 0;
+            vlr[18] = 0;
+            vlr[19] = 35240.1826;
+            vlr[20] = 43829.1667;
+            vlr[21] = 18235.6852;
+            vlr[22] = 4355.0662;
+            vlr[23] = 13327.1025;
+            vlr[24] = 0;
+            vlr[25] = 0;
+            vlr[26] = 25681.8318;
+            vlr[27] = 1718.1221;
+            vlr[28] = 13220.495;
+            vlr[29] = 8414.61;
 
-            //Console.WriteLine(fatu(ref dia, ref vlr));
+            Console.WriteLine(fatu(ref dia, ref vlr));
 
 
 
             //ex 4
 
-            //Console.WriteLine(fatu2(67836.43, 36678.66, 29229.88, 27165.48, 19849.53));
+            Console.WriteLine(fatu2(67836.43, 36678.66, 29229.88, 27165.48, 19849.53));
 
             //ex 5
 
